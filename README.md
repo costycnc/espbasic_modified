@@ -7,6 +7,8 @@ i modified first bascom release from here https://github.com/esp8266/Basic/tree/
 
 esp tool https://github.com/igrr/esptool-ck/blob/master/README.md
 
+esptool.exe -vv -cd nodemcu -cb 921600 -cp COM3 -ca 0x00000 -cf ESP8266Basic.ino.bin 
+
 For compile i used Arduino 1.8.9 with aditional board manager : http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ![alt text](https://github.com/costycnc/espbasic_modified/blob/master/board.jpg)
