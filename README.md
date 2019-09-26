@@ -14,7 +14,7 @@ with esp8285 settings
 I create classes.h with declared of all functions because appear uknown
 
 Example code open close led
-...
+'''
 
 Button "open" [setthepin] 
 Button "close" [resetthepin] 
@@ -28,7 +28,7 @@ Wait
 Po 0 0 
 Wait 
 
-...
+'''
 
 led conected a D0 (i used esp8285 module)
  
