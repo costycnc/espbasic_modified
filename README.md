@@ -29,3 +29,9 @@ Wait
 
 led conected a D0 (i used esp8285 module)
  
+
+![alt text](https://github.com/costycnc/espbasic_modified/blob/master/button.jpg)
+
+![alt text](https://github.com/costycnc/espbasic_modified/blob/master/led.jpg)
+
+![alt text](https://github.com/costycnc/espbasic_modified/blob/master/led1.jpg)
