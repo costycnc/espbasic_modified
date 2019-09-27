@@ -1,4 +1,7 @@
 # espbasic_modified
+
+see below of the page ... address of interesting examples in arduino 
+
 language reference https://docs.google.com/document/d/1NMZvnnjZ5XNzkykINgYS_Ql6mQ3nJEAzYudbmScdiIg/pub
 
 esp basic first release https://github.com/esp8266/Basic/commits/master?after=e05b67c5268d73694d7d35063f6d9ffe268948a9+185
@@ -50,4 +53,7 @@ led conected a pin 0 (i used esp8285 module)
 
 de inspirat:
 
-in arduino File Examples esp8266wifi wifiaccesspoint  solo come si conette per entrare con 192.168.4.1 (senza router)
+>>>in arduino File Examples esp8266wifi wifiaccesspoint  solo come si conette per entrare con 192.168.4.1 (senza router)
+>>>File Examples esp8266wifi wifimanualwebserver come mandare tutta risposta 
+client.print(F("HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<!DOCTYPE HTML>\r\n<html>\r\nGPIO is now "));
+>>>  File Examples esp8266wifi wifiscan  print all network found
