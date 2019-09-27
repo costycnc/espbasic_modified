@@ -2,6 +2,8 @@
 
 see below of the page ... address of interesting examples in arduino 
 
+unzip compile.zip , and change the port in file bat (open this file with notepad, change port and save ... and after run this file)
+
 For compile i used Arduino 1.8.9 with aditional board manager : http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ![alt text](https://github.com/costycnc/espbasic_modified/blob/master/board.jpg)
