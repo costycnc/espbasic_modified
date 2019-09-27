@@ -56,8 +56,11 @@ led conected a pin 0 (i used esp8285 module)
 de inspirat:
 
 >>>in arduino File Examples esp8266wifi wifiaccesspoint  solo come si conette per entrare con 192.168.4.1 (senza router)
+
 >>>File Examples esp8266wifi wifimanualwebserver come mandare tutta risposta 
+
 client.print(F("HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<!DOCTYPE HTML>\r\n<html>\r\nGPIO is now "));
+  
 >>>  File Examples esp8266wifi wifiscan  print all network found
   
   Arduino core for ESP8266 WiFi chip https://github.com/esp8266/Arduino
