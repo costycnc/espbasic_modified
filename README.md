@@ -62,6 +62,8 @@ de inspirat:
 client.print(F("HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<!DOCTYPE HTML>\r\n<html>\r\nGPIO is now "));
   
 '  File Examples esp8266wifi wifiscan  print all network found
+
+' guarda anche httpupdate e httupdate server , come rinfrescare code , come load bin , non ho capito bene!
   
   Arduino core for ESP8266 WiFi chip https://github.com/esp8266/Arduino
   
