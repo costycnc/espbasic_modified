@@ -55,6 +55,12 @@ led conected a pin 0 (i used esp8285 module)
 
 ![alt text](https://github.com/costycnc/espbasic_modified/blob/master/open.jpg)
 
+I understand that if function ConnectToTheWIFI return 0 (cant connect to router )
+
+is execute function CreateAP (access point local 192.168.4.1) 
+
+CreatAp can be called also with "ap" in basic program
+
 de inspirat:
 
 'in arduino File Examples esp8266wifi wifiaccesspoint  solo come si conette per entrare con 192.168.4.1 (senza router)
