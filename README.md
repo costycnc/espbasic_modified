@@ -83,3 +83,7 @@ i modified first espbasic release from here https://github.com/esp8266/Basic/tre
 
 esp tool https://github.com/igrr/esptool-ck/blob/master/README.md 
 
+interesting:
+
+coding in blocks http://easycoding.tn/tuniot/demos/code/
+
