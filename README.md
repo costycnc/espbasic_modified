@@ -37,12 +37,15 @@ Wait
              
 '''        
 
-led conected a pin 0 (i used esp8285 module)
+
  
 
 ![alt text](https://github.com/costycnc/espbasic_modified/blob/master/button.jpg)
 
 ![alt text](https://github.com/costycnc/espbasic_modified/blob/master/telefon.jpg)
+
+
+led conected a pin 0 (i used esp8285 module)
 
 ![alt text](https://github.com/costycnc/espbasic_modified/blob/master/led.jpg)
 
