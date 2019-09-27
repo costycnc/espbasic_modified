@@ -47,3 +47,7 @@ led conected a pin 0 (i used esp8285 module)
 ![alt text](https://github.com/costycnc/espbasic_modified/blob/master/led1.jpg)
 
 ![alt text](https://github.com/costycnc/espbasic_modified/blob/master/open.jpg)
+
+de inspirat:
+
+in arduino File Examples esp8266wifi wifiaccesspoint  solo come si conette per entrare con 192.168.4.1 (senza router)
