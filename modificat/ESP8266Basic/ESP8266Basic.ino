@@ -179,7 +179,25 @@ void setup() {
 
   server.on("/settings", []()
   {
-    String WebOut = AdminBarHTML;
+
+     // WiFi.scanNetworks will return the number of networks found
+  int n = WiFi.scanNetworks();
+  String WebOut1="scan done<br>";
+  if (n == 0) {
+    WebOut1 +="no networks found";
+  } else {
+    WebOut1 +=n;
+    WebOut1 +=" networks found<br>";
+    for (int i = 0; i < n; ++i) {
+      // Print SSID and RSSI for each network found
+      WebOut1 +=WiFi.SSID(i);
+      WebOut1 +="<br>";
+      delay(10);
+    }}
+    WebOut1 +=("Done...<br>");
+
+String WebOut = AdminBarHTML;
+    WebOut +=WebOut1 ;
     WebOut += SettingsPageHTML;
     String staName;
     String staPass;
