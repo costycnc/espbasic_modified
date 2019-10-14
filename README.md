@@ -1,5 +1,7 @@
 # espbasic_modified
 
+compile.zip for write bin to esp8285
+
 ![alt text](https://github.com/costycnc/espbasic_modified/blob/master/connect.jpg)
 
 see below of the page ... address of interesting examples in arduino 
