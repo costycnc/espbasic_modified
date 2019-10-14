@@ -316,7 +316,7 @@ server.onNotFound ( []() {
   server.send(200, "text/html", RunningProgramGui());
 });
 
-LoadBasicProgramFromFlash("");
+LoadBasicProgramFromFlash("costy");
 
 
 if (  ConnectToTheWIFI(LoadDataFromFile("WIFIname"), LoadDataFromFile("WIFIpass")) == 0)
@@ -1251,7 +1251,7 @@ void SaveBasicProgramToFlash(String fileNameForSave)
   File f = SPIFFS.open(String("/" + fileNameForSave + ".bas"), "w");
   if (!f)
   {
-    PrintAndWebOut("file open failed");
+    PrintAndWebOut("file open failed3");
   }
   else
   {
@@ -1279,7 +1279,8 @@ void LoadBasicProgramFromFlash(String fileNameForSave)
   File f = SPIFFS.open(String("/" + fileNameForSave + ".bas"), "r");
   if (!f)
   {
-    PrintAndWebOut("file open failed");
+    PrintAndWebOut("file open failed4="+fileNameForSave);
+    
   }
   else
   {
@@ -1300,7 +1301,7 @@ void SaveDataToFile(String fileNameForSave, String DataToSave)
   File f = SPIFFS.open(String(" /data/" + fileNameForSave + ".dat"), "w");
   if (!f)
   {
-    PrintAndWebOut("file open failed");
+    PrintAndWebOut("file open failed1");
   }
   else
   {
@@ -1319,7 +1320,7 @@ String LoadDataFromFile(String fileNameForSave)
   File f = SPIFFS.open(String(" /data/" + fileNameForSave + ".dat"), "r");
   if (!f)
   {
-    PrintAndWebOut("file open failed");
+    PrintAndWebOut("file open failed2=/data/"+fileNameForSave);
   }
   else
   {
